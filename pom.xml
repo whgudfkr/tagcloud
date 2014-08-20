@@ -127,7 +127,7 @@
 
 					<archive>
 						<manifest>
-							<mainClass>Cloud</mainClass>
+							<mainClass>cloud.Cloud</mainClass>
 
 							<addClasspath>true</addClasspath>
 
