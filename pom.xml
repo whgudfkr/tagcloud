@@ -63,6 +63,42 @@
 
 	<dependencies>
 		<dependency>
+  		<groupId>org.apache.hadoop</groupId>
+  			<artifactId>hadoop-mapreduce-client</artifactId>
+  			<version>0.23.1</version>
+  			<type>pom</type>
+		</dependency>
+		<dependency>
+  			<groupId>org.apache.hadoop</groupId>
+  			<artifactId>hadoop-mapreduce-client-app</artifactId>
+  			<version>0.23.1</version>
+		</dependency>
+		<dependency>
+  			<groupId>org.apache.hadoop</groupId>
+  			<artifactId>hadoop-mapreduce-client-core</artifactId>
+  			<version>0.23.1</version>
+		</dependency>
+		<dependency>
+  			<groupId>org.apache.hadoop</groupId>
+  			<artifactId>hadoop-mapreduce-client-common</artifactId>
+  			<version>0.23.1</version>
+		</dependency>
+		<dependency>
+  			<groupId>org.apache.hadoop</groupId>
+  			<artifactId>hadoop-mapreduce-client-jobclient</artifactId>
+  			<version>0.23.1</version>
+		</dependency>
+		<dependency>
+  			<groupId>org.apache.hadoop</groupId>
+  			<artifactId>hadoop-hdfs</artifactId>
+  			<version>0.22.0</version>
+		</dependency>
+		<dependency>
+  			<groupId>org.apache.hadoop</groupId>
+  			<artifactId>hadoop-yarn-common</artifactId>
+		  	<version>0.23.1</version>
+		</dependency>
+		<dependency>
   			<groupId>org.apache.hbase</groupId>
   			<artifactId>hbase-examples</artifactId>
 	  		<version>0.95.0</version>
