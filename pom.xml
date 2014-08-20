@@ -63,9 +63,14 @@
 
 	<dependencies>
 		<dependency>
-		  <groupId>org.apache.hadoop</groupId>
-		  <artifactId>hadoop-core</artifactId>
-		  <version>0.20.2</version>
+  			<groupId>org.apache.hbase</groupId>
+  			<artifactId>hbase-examples</artifactId>
+	  		<version>0.95.0</version>
+		</dependency>
+		<dependency>
+			  <groupId>org.apache.hadoop</groupId>
+			  <artifactId>hadoop-core</artifactId>
+			  <version>0.20.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org</groupId>
